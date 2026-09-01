@@ -30,7 +30,7 @@
     "@tailwindcss/typography": "^0.5.20",
     "@types/node": "^26.4.0",
     "@types/react": "19.2.18",
-    "@types/react-dom": "19.2.4",
+    "@types/react-dom": "19.2.5",
     "baseline-browser-mapping": "^2.11.20",
     "eslint": "^9.39.5",
     "eslint-config-next": "16.3.3",
@@ -40,7 +40,7 @@
   },
   "overrides": {
     "@types/react": "19.2.18",
-    "@types/react-dom": "19.2.4",
+    "@types/react-dom": "19.2.5",
     "dompurify": "^3.4.13",
     "nanoid": "^3.3.18",
     "postcss": "^8.5.26"
