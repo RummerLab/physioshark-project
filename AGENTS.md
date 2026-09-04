@@ -19,22 +19,22 @@ Do not describe current fieldwork as based at CRIOBE. Historical CRIOBE mentions
 ## Setup
 
 ```bash
-npm install
-npm run dev
+pnpm install
+pnpm run dev
 ```
 
-Helper (only when needed): `npm run download-images`.
+Helper (only when needed): `pnpm run download-images`.
 
 ## Checks
 
 After code changes, run and fix:
 
 ```bash
-npm run lint
-npm run build
+pnpm run lint
+pnpm run build
 ```
 
-`npm run build` needs `RESEND_API_KEY` for `/api/contact`. Local builds can fail without it.
+`pnpm run build` needs `RESEND_API_KEY` for `/api/contact`. Local builds can fail without it.
 
 If you suspect a security issue, run `snyk test`.
 
@@ -65,6 +65,14 @@ Use `next/image`. Prefer WebP via the optimizer.
 - Contact posts to `app/api/contact/route.ts` (Resend). Do not log secrets.
 
 
+## Package manager
+
+This repo uses **pnpm** (`packageManager` in `package.json`).
+
+- Install: `pnpm install` (do not use npm/yarn for installs in this repo).
+- Scripts: `pnpm run <script>` / `pnpm exec <bin>`.
+- Lockfile: `pnpm-lock.yaml` only â€” do not commit `package-lock.json` or `yarn.lock`.
+- Local disk: pnpm's content-addressable store shares package contents across checkouts on the same machine.
 ## Dependency tooling (Next.js)
 
 Follow current Next.js docs for ESLint and TypeScript — do **not** merge Dependabot majors that the Next.js / `typescript-eslint` stack does not support yet.
@@ -77,11 +85,11 @@ Follow current Next.js docs for ESLint and TypeScript — do **not** merge Depen
 ### Framework upgrades
 
 ```bash
-npx @next/codemod@canary upgrade latest
-npx @tailwindcss/upgrade
+pnpm exec @next/codemod@canary upgrade latest
+pnpm exec @tailwindcss/upgrade
 ```
 
-After either upgrade: run `npm run lint` and `npm run build`, fix failures, and update this file if versions/scripts change.
+After either upgrade: run `pnpm run lint` and `pnpm run build`, fix failures, and update this file if versions/scripts change.
 
 
 ## Pull requests
