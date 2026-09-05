@@ -34,7 +34,7 @@ The Physioshark Project, led by Dr. Jodie Rummer, combines ecology, evolution, a
 First, run the development server:
 
 ```bash
-npm run dev
+pnpm run dev
 # or
 yarn dev
 # or
