@@ -23,7 +23,7 @@
     "react-icons": "^5.7.0",
     "resend": "^6.30.0",
     "sharp": "^0.35.4",
-    "tailwind-merge": "^3.6.0"
+    "tailwind-merge": "^3.7.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.3.3",
