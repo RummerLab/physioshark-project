@@ -15,7 +15,7 @@
     "@vercel/analytics": "^2.0.1",
     "@vercel/speed-insights": "^2.0.0",
     "clsx": "^2.1.1",
-    "isomorphic-dompurify": "^4.0.0",
+    "isomorphic-dompurify": "^4.4.0",
     "lucide-react": "^1.39.0",
     "next": "16.3.4",
     "react": "19.2.8",
