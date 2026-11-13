@@ -1,0 +1,24 @@
+/* TEAM */
+
+  Project lead: Dr. Jodie Rummer
+  Contact: hello@physioshark.org
+  Website: https://jodierummer.com
+  Location: Townsville, Queensland, Australia
+
+  Developer: Luen Warneke
+  Website: https://luenwarneke.com
+  GitHub: https://github.com/Luen
+  Location: Townsville, Queensland, Australia
+
+  Research team: Physioshark Project
+  Website: https://physioshark.org/#team
+  Location: Mo'orea, French Polynesia
+
+/* SITE */
+
+  Language: English
+  Doctype: HTML5
+  Standards: HTML5, CSS3, ES2022
+  Components: Next.js, React, Tailwind CSS, TypeScript
+  Software: Git, pnpm, Vercel
+  Source: https://github.com/RummerLab/physioshark-project
