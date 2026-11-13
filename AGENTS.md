@@ -58,6 +58,13 @@ Use `next/image`. Prefer WebP via the optimizer.
 - `quality={85}` unless there is a strong reason for higher.
 - Do not add `deviceSizes` / `imageSizes` in `next.config.ts` without need.
 
+## humans.txt
+
+`public/humans.txt` credits the people and technology behind the site. It is linked from `<head>` with `rel="author"` in `app/layout.tsx`.
+
+- Keep the `/* TEAM */` and `/* SITE */` sections in [humans.txt format](https://humanstxt.org).
+- Update the `Last update` date and any changed credits in the same PR as the change.
+
 ## Security
 
 - Never commit secrets or `.env*` files. `RESEND_API_KEY` stays in env.
