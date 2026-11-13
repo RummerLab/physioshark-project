@@ -63,7 +63,6 @@ Use `next/image`. Prefer WebP via the optimizer.
 `public/humans.txt` credits the people and technology behind the site. It is linked from `<head>` with `rel="author"` in `app/layout.tsx`.
 
 - Keep the `/* TEAM */` and `/* SITE */` sections in [humans.txt format](https://humanstxt.org).
-- Update the `Last update` date and any changed credits in the same PR as the change.
 
 ## Security
 
